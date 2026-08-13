@@ -3,9 +3,9 @@
 public static void main(String[] args) {
 
     //!Se crean las instancias de las clases
-    CuentaBancaria cuenta1 = new CuentaAhorros("123456789", "", 1000, 0.05, 500);
-    CuentaBancaria cuenta2 = new CuentaCorriente("987654321", "", 2000, 0.02, 1000);
-    CuentaBancaria cuenta3 = new CuentaInversion("098765432", "", 3000, 0.01, 0.05, 12);
+    CuentaBancaria cuenta1 = new CuentaAhorros("123456789", "Fernando Torres", 1000, 0.05, 500);
+    CuentaBancaria cuenta2 = new CuentaCorriente("987654321", "Lionel Messi", 2000, 0.02, 1000);
+    CuentaBancaria cuenta3 = new CuentaInversion("098765432", "Gustavo Alfaro", 3000, 0.01, 0.05, 12);
 
     //!Se imprimen las instancias de las clases
     System.out.println(cuenta1.describir());
